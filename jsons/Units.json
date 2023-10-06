@@ -1,1 +1,845 @@
+[
 
+        { 
+
+                 "name": "Pickelhaube Infantry", 
+
+                 "unitType": "Gunpowder", 
+
+                 "uniqueTo": "The German Empire",
+               
+                 "replaces": "Great War Infantry",
+                
+                 "movement": 2, 
+
+
+                
+                 "strength": 60, 
+
+                 "cost": 350, 
+
+                 "requiredTech": "Replaceable Parts", 
+
+                 "uniques": ["[+30]% Strength <when fighting in [Trench Line] tiles>"],
+                
+                 "obsoleteTech": "Plastics",
+                
+                 "upgradesTo": "Infantry",
+
+		"attackSound": "shot",
+                
+         },
+          
+         { 
+                 
+                 "name": "Soixante-Quinze",
+                 
+                 "unitType": "Siege"
+                 
+                 "uniqueTo": "The French Republic",
+                 
+                 "replaces": "Artillery",
+                 
+                 "movement": 2,
+                 
+                 
+                 
+                 "strength": 23,
+                 
+                 "rangedStrength": 40
+                
+                 "cost": 375,
+                 
+                 "requiredTech": "Dynamite",
+                
+                 "uniques": ["[+200]% strength vs cities when attacking"]
+                 
+                 "obsoleteTech": "Rocketry",
+                 
+                 "upgradesTo": "Rocket Artillery",
+                 
+                 
+           },      
+                 
+           {
+           
+                 "name": "Raider",
+                   
+                 "unitType": "Light Infantry",
+                 
+                 "movement": 3,
+                
+                   
+                 "strength": 60,
+                   
+                 "cost": 360,
+                  
+                 "requiredTech": "Ballistics",
+                   
+                 "uniques": ["Can move after attacking"],
+                   
+                 "obsoleteTech": "Rocketry",
+                   
+                 "upgradesTo": "Marine",
+
+		 "attackSound": "shot",
+                   
+            },
+
+            {
+                    
+                    "name": "Sturmtruppen",
+                    
+                    "unitType": "Gunpowder",
+                    
+                    "uniqueTo": "The German Empire",
+                    
+                    "replaces": "Raider",
+                    
+                    "movement": 3,
+                    
+                    
+                    "strength": 65,
+                    
+                    "cost": 400,
+                    
+                    "requiredTech": "Ballistics",
+                   
+                    "uniques": ["Can move after attacking"],
+                    
+                    "obsoleteTech": "Rocketry",
+                    
+                    "upgradesTo": "Marine",
+
+		    "attackSound": "shot",
+                    
+             },
+
+             { 
+                     
+                     "name": "Iron Duke",
+                     
+                     "unitType": "Melee Water",
+                     
+                     "uniqueTo": "The British Empire",
+                     
+                     "replaces": "Destroyer",
+                     
+                     "movement": 7,
+                     
+                     
+                     "strength": 65,
+                     
+                     "cost": 425,
+                     
+                     "requiredTech": "Combustion",
+
+                     "requiredResource": "Oil",
+
+                     "uniques": ["Can see invisible Submarine units","[40]% chance to intercept air attacks","May withdraw before melee ([80]%)","+100% strength vs Submarine units"],
+                     
+                     "attackSound": "shipguns",
+                 
+             },
+
+             {
+                     
+                     "name": "Schützengrabeninfanterie",
+                     
+                     "unitType": "Gunpowder",
+                     
+                     "uniqueTo": "Austria-Hungary",
+                     
+                     "replaces": "Great War Infantry",
+                     
+                     "movement": 2,
+                     
+                     
+                     "strength": 45,
+                     
+                     "cost": 325,
+                     
+                     "requiredTech": "Replaceable Parts",
+                     
+                     "obsoleteTech": "Plastics",
+                     
+                     "upgradesTo": "Infantry",
+
+		     "attackSound": "shot",
+                     
+             },
+
+             { 
+
+                     "name": "Tsar Tank",
+
+                     "unitType": "Armored",
+
+                     "uniqueTo": "The Russian Empire",
+
+                     "replaces": "Landship",
+
+                     "movement": 5,
+
+
+                     "strength": 50,
+
+                     "cost": 380,
+
+                     "requiredTech": "Combustion",
+
+                     "requiredResource": "Oil",
+
+                     "uniques": ["Can see over obstacles"]
+                     
+                     "obsoleteTech": "Combined Arms",
+
+                     "upgradesTo": "Tank",
+
+		     "attackSound": "tankshot",
+
+             },
+
+             {
+
+                     "name": "Müsellems",
+
+                     "unitType": "Mounted",
+
+                     "uniqueTo": "The Ottoman Empire",
+
+                     "replaces": "Cavalry",
+
+                     "movement": 4,
+
+
+                     "strength": 40,
+
+                     "cost": 350,
+
+                     "requiredTech": "Military Science",
+
+                     "requiredResource": "Horses",
+
+                     "uniques": ["[50] Gold <upon defeating a [Wounded] unit>","Can move after attacking","No defensive terrain bonus","-33% strength vs cities when attacking"],
+
+                     "obsoleteTech": "Combustion",
+
+                     "upgradesTo": "Landship",
+
+             },
+
+             {
+
+                     "name": "Schneider Cannon",
+
+                     "unitType": "Siege",
+
+                     "uniqueTo": "The Kingdom of Bulgaria",
+
+                     "replaces": "Artillery",
+
+                     "movement": 3,
+
+
+                     "strength": 20,
+
+                     "rangedStrengh": 25,
+
+                     "cost": 330,
+
+                     "requiredTech": "Dynamite",
+
+                     "uniques": ["[+200]% strength vs cities when attacking"]
+                 
+                     "obsoleteTech": "Rocketry",
+                 
+                     "upgradesTo": "Rocket Artillery",
+
+		     "attackSound": "artillery",
+
+             },
+
+             {
+
+                     "name": "Jeffery Armored Car",
+
+                     "unitType": "Armored",
+
+
+                     "uniqueTo": "The United States",
+
+                     "replaces": "Landship",
+
+                     "movement": 5,
+
+
+                     "strength": 50,
+
+                     "cost": 365,
+
+                     "requiredTech": "Combustion",
+
+                     "requiredResource": "Oil",
+
+                     "uniques": ["[+30]% Strength <when adjacent to a [Melee] unit>"]
+                     
+                     "obsoleteTech": "Combined Arms",
+
+                     "upgradesTo": "Tank",
+
+		     "attackSound": "machinegun",
+
+             },
+
+             {
+
+                     "name": "Digger",
+
+                     "unitType": "Gunpowder", 
+
+                     "uniqueTo": "The Commonwealth of Australia",
+               
+                     "replaces": "Great War Infantry",
+                
+                     "movement": 2, 
+
+
+                
+                     "strength": 50, 
+
+                     "cost": 350, 
+
+                     "requiredTech": "Replaceable Parts", 
+                
+                     "obsoleteTech": "Plastics",
+
+                     "promotions": ["Mateship","Survivalism I"],
+                
+                     "upgradesTo": "Infantry",
+
+		     "attackSound": "shot", 
+
+             },
+
+             {
+
+                     "name": "Alpine Infantry",
+
+                     "unitType": "Gunpowder", 
+
+                     "uniqueTo": "The Kingdom of Italy",
+               
+                     "replaces": "Great War Infantry",
+                
+                     "movement": 2, 
+
+
+                
+                     "strength": 50, 
+
+                     "cost": 330, 
+
+                     "requiredTech": "Replaceable Parts", 
+                
+                     "obsoleteTech": "Plastics",
+
+                     "promotions": ["Alpine Infantry Ability"],
+                
+                     "upgradesTo": "Infantry",
+
+		     "attackSound": "shot",
+
+             },
+
+             {
+
+                     "name": "Light Artillery",
+                 
+                     "unitType": "Siege"
+                 
+                     "uniqueTo": "The Kingdom of Belgium",
+                 
+                     "replaces": "Artillery",
+                  
+                     "movement": 3,
+                 
+                 
+                 
+                    "strength": 15,
+                   
+                    "rangedStrength": 15,
+                
+                    "cost": 320,
+                 
+                    "hurryCostModifier": 120,
+                 
+                    "requiredTech": "Dynamite",
+                
+                    "uniques": ["+[200]% strength vs cities when attacking"]
+                 
+                    "obsoleteTech": "Rocketry",
+                 
+                    "upgradesTo": "Rocket Artillery",
+
+		     "attackSound": "artillery",
+                 
+                 
+           },  
+
+           {
+
+                     "name": "Bicycle Infantry",
+
+                     "unitType": "Gunpowder", 
+
+                     "uniqueTo": "The British Raj",
+               
+                     "replaces": "Great War Infantry",
+                
+                     "movement": 3, 
+
+
+                
+                     "strength": 55, 
+
+                     "cost": 190, 
+
+                     "requiredTech": "Replaceable Parts", 
+                
+                     "obsoleteTech": "Plastics",
+                
+                     "upgradesTo": "Infantry",
+
+		     "attackSound": "shot",
+
+             },
+
+             {
+
+                 "name": "Mortar",
+
+                 "unitType": "Light Siege",
+                 
+                 "movement": 2,
+                 
+                 
+                 
+                 "strength": 20,
+                 
+                 "rangedStrengh": 35,
+                
+                 "cost": 320,
+                 
+                 "requiredTech": "Dynamite",
+                
+                 "uniques": ["[+150]% strength vs cities when attacking"],
+                 
+                 "obsoleteTech": "Rocketry",
+                 
+                 "upgradesTo": "Modern Mortar",
+
+		 "attackSound": "artillery",
+
+             },
+
+             {
+
+                     "name": "Modern Mortar",
+
+                     "unitType": "Light Siege",
+
+                     "movement": 2,
+
+
+                     "strength": 30,
+
+                     "rangedStrengh": 40,
+
+                     "cost": 380,
+
+                     "requiredTech": "Rocketry",
+
+                     "uniques": ["[+150]% strength vs cities when attacking"],
+
+		     "attackSound": "artillery",
+
+             },
+                     
+             {
+
+                     "name": "Great War Machine Gun",
+
+                     "unitType": "Support", 
+                
+                     "movement": 1, 
+
+                
+                     "strength": 60, 
+
+                     "cost": 280, 
+
+                     "requiredTech": "Replaceable Parts",
+
+		     "obsoleteTech": "Ballistics",
+
+                     "uniques": ["[+75]% strength when defending"],
+
+                     "upgradesTo": "Machine Gun",
+
+		     "attackSound": "machinegun",
+
+             },
+
+             {
+
+                 "name": "Draftee",
+
+                 "unitType": "Light Infantry", 
+                
+                 "movement": 2, 
+
+                
+                 "strength": 40, 
+
+                 "cost": 200,
+
+                 "requiredTech": "Replaceable Parts", 
+
+		 "obsoleteTech": "Ballistics",
+
+		 "upgradesTo": "Raider",
+
+		 "attackSound": "shot",
+                
+           },  
+
+           {
+
+                 "name": "Carbonário",
+
+                 "unitType": "Light Infantry",
+
+                 "uniqueTo": "The First Portuguese Republic",
+
+                 "replaces": "Draftee",
+                
+                 "movement": 2, 
+
+                
+                 "strength": 40, 
+
+                 "cost": 180,
+
+                 "requiredTech": "Replaceable Parts",
+
+		 "obsoleteTech": "Ballistics",
+
+		 "upgradesTo": "Raider",
+
+                 "uniques": ["May enter foreign tiles without open borders","Invisible to non-adjacent units"],
+
+		 "attackSound": "shot",
+                
+         },
+
+        { 
+
+                 "name": "Canadian Expeditionary Force", 
+
+                 "unitType": "Gunpowder", 
+
+                 "uniqueTo": "The Dominion of Canada",
+               
+                 "replaces": "Great War Infantry",
+                
+                 "movement": 2, 
+
+
+                
+                 "strength": 60, 
+
+                 "cost": 290,  
+
+                 "requiredTech": "Replaceable Parts", 
+
+                 "uniques": ["[+30]% Strength <when attacking> <in [Trench Line] tiles>"], 
+                
+                 "obsoleteTech": "Plastics",
+                
+                 "upgradesTo": "Infantry",
+
+		 "attackSound": "shot",
+                
+         },
+
+             {
+
+                     "name": "NZ Digger",
+
+                     "unitType": "Gunpowder", 
+
+                     "uniqueTo": "The Dominion of New Zealand",
+               
+                     "replaces": "Great War Infantry",
+                
+                     "movement": 2, 
+
+
+                
+                     "strength": 50, 
+
+                     "cost": 350, 
+
+                     "requiredTech": "Replaceable Parts", 
+                
+                     "obsoleteTech": "Plastics",
+
+                     "promotions": ["Mateship","Haka War Dance"],
+                
+                     "upgradesTo": "Infantry",
+
+		     "attackSound": "shot",
+
+             },
+
+{
+
+                 "name": "Romanian Volunteer Corps",
+
+                 "unitType": "Light Infantry",
+
+                 "uniqueTo": "The Kingdom of Romania",
+
+                 "replaces": "Draftee",
+                
+                 "movement": 2, 
+
+                
+                 "strength": 40, 
+
+                 "cost": 130,
+
+                 "requiredTech": "Replaceable Parts",
+
+                 "obsoleteTech": "Rocketry",
+
+	         "upgradesTo": "Raider",
+
+                 "uniques": ["[+30]% strength when defending"],
+                
+         },
+
+         {
+
+                 "name": "Banzai Infantry",
+
+                 "unitType": "Gunpowder",
+
+                 "uniqueTo": "The Empire of Japan",
+
+                 "replaces": "Great War Infantry",
+
+                 "movement": 2,
+                 
+
+                 "strength": 55,
+
+                 "cost": 330,
+
+                 "requiredTech": "Replaceable Parts",
+
+                 "obsoleteTech": "Plastics",
+
+                 "promotions": ["Shock I"],
+                 
+         },
+
+        { 
+
+                 "name": "Greek Expeditionary Force", 
+
+                 "unitType": "Gunpowder", 
+
+                 "uniqueTo": "The Kingdom of Greece",
+               
+                 "replaces": "Great War Infantry",
+                
+                 "movement": 2, 
+
+
+                
+                 "strength": 60, 
+
+                 "cost": 330, 
+
+                 "requiredTech": "Replaceable Parts", 
+
+                 "uniques": ["[+20]% combat bonus in [Foreign] tiles"],
+                
+                 "obsoleteTech": "Plastics",
+                
+                 "upgradesTo": "Infantry",
+                
+         },
+                 
+	{
+                
+		"name": "Foreign Legion",
+                
+		"unitType": "Gunpowder",
+                
+		"replaces": "Great War Infantry",
+                
+		"uniqueTo": "The French Republic",
+                
+		"movement": 2,
+		
+                
+		"strength": 50,
+                
+		"cost": 320,
+                
+		"requiredTech": "Replaceable Parts",
+                
+		"upgradesTo": "Infantry",
+                
+		"obsoleteTech": "Plastics",
+                
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+                
+		"attackSound": "shot"
+                
+	},
+
+        {
+
+                 "name": "Brodie Infantry",
+                
+                 "unitType": "Gunpowder", 
+
+                 "uniqueTo": "The British Empire",
+               
+                 "replaces": "Great War Infantry",
+                
+                 "movement": 2, 
+
+             
+                 "strength": 50, 
+
+                 "cost": 350, 
+
+                 "requiredTech": "Replaceable Parts", 
+
+                 "uniques": ["[+20]% Strength <when fighting in [Water] tiles>"],
+                
+                 "obsoleteTech": "Plastics",
+                
+                 "upgradesTo": "Infantry",
+                
+         },
+
+         {
+
+		 "name": "Minas Geraes",
+
+		 "unitType": "Ranged Water",
+
+		 "uniqueTo": "The Republic of Brazil",
+
+		 "replaces": "Battleship",
+		 
+		 "movement": 5,
+		 
+		 "strength": 65,
+		 
+	 	 "rangedStrength": 65,
+		 
+		 "range": 3,
+		 
+		 "cost": 375,
+		 
+		 "requiredResource": "Oil",
+		 
+		 "requiredTech": "Electronics",
+		 
+		 "uniques": ["Never appears as a Barbarian unit"],
+		 
+		 "promotions": ["Indirect Fire"],
+		 
+		 "attackSound": "shipguns"
+
+	 },
+
+	{
+		"name": "Serbian First Army",
+		
+		"unitType": "Gunpowder",
+
+		"uniqueTo": "The Kingdom of Serbia",
+
+		"replaces": "Great War Infantry",
+		
+		"movement": 2,
+		
+		"strength": 50,
+		
+		"cost": 360,
+		
+		"requiredTech": "Replaceable Parts",
+
+		"promotions": ["Serbian Unity"],
+		
+		"upgradesTo": "Infantry",
+		
+		"obsoleteTech": "Plastics",
+		
+		"attackSound": "shot",
+		
+	},
+
+	{
+		"name": "Greatcoat",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The Russian Empire",
+		"replaces": "Great War Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["[+40]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>"],
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fedayi",
+		"unitType": "Light Infantry",
+		"uniqueTo": "Armenian Resistance",
+		"replaces": "Draftee",
+		"movement": 2,
+		"strength": 40,
+		"cost": 200,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["[+30]% Strength <when fighting in [Friendly Land] tiles>"],
+		"upgradesTo": "Raider",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "shot",
+	},
+	{
+		"name": "Siamese Expeditionary Forces",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The Kingdom of Siam",
+		"replaces": "Great War Infantry",
+		"movement": 3,
+		"strength": 50,
+		"cost": 370,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["All adjacent units heal [6] HP when healing"],
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+		
+]
+  
