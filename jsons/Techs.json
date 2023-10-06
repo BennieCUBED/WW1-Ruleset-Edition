@@ -1,7 +1,7 @@
 [
   {
-"columnNumber": 10,
-		"era": "Industrial era",
+"columnNumber": 1,
+		"era": "1900s",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns, lol.
@@ -31,8 +31,8 @@
 		]
 	},
 	{
-		"columnNumber": 11,
-		"era": "Modern era",
+		"columnNumber": 2,
+		"era": "1910s",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 215,
@@ -70,8 +70,8 @@
 		]
 	},
 	{
-		"columnNumber": 12,
-		"era": "Modern era",
+		"columnNumber": 3,
+		"era": "1920s",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
