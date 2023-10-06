@@ -1,27 +1,30 @@
 [
-
       {
-
             "name": "Light Siege",
-
             "movementType": "Land",
-
       },
-
       {
-
             "name": "Light Infantry",
-
             "movementType": "Land",
-
       },
-
       {
-
             "name": "Support",
-
             "movementType": "Land",
-
       },
-
+      {
+            "name": "Mounted",
+            "movementType": "Land",
+      },
+      {
+            "name": "Armored",
+            "movementType": "Land",
+      },
+      {
+            "name": "Siege",
+            "movementType": "Land",
+      },
+      {
+            "name": "Melee Water",
+            "movementType": "Water",
+      },
 ]
