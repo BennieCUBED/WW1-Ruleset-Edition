@@ -2,6 +2,7 @@
       {
             "name": "Melee",
             "movementType": "Land",
+      },
       {
             "name": "Light Siege",
             "movementType": "Land",
