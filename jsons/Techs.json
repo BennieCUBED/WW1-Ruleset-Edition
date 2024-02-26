@@ -1,6 +1,6 @@
 [
   {
-"columnNumber": 1,
+"columnNumber": 0,
 		"era": "1900s",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -38,7 +38,7 @@
 		]
 	},
 	{
-		"columnNumber": 2,
+		"columnNumber": 1,
 		"era": "1910s",
 		"techCost": 55,
 		"buildingCost": 75,
@@ -77,7 +77,7 @@
 		]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 2,
 		"era": "1920s",
 		"techCost": 105,
 		"buildingCost": 100,
