@@ -1162,6 +1162,7 @@
 		        "outerColor": [0, 0, 0],
 		        "innerColor": [222, 176, 11],
 		        "cities": ["Colombo"],
+	},
 	{
 		"name": "Kabul",
 		"adjective": ["Kabul"],
@@ -1209,7 +1210,6 @@
 		"outerColor": [0, 0, 0],
         "innerColor": [51,51,255],
 		"cities": ["Nanjing"]
-	},
 	},
 		
 
