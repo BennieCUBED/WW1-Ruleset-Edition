@@ -10,7 +10,10 @@
 				"name": "Industrialisation",
 				"row": 6,
 				"quote": "Hello :)",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech"],
+			},
+		]
+  },
 			{
 				"name": "Biology",
 				"row": 2,
