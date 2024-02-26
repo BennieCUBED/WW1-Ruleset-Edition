@@ -78,7 +78,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "1920s",
+		"era": "1916s",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -106,7 +106,35 @@
 				"row": 8,
 				"prerequisites": ["Railroads"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			},
+		]
+	},
+			{
+		"columnNumber": 3,
+		"era": "Atomic era",
+		"techCost": 220,
+		"buildingCost": 125,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 2,
+				"prerequisites": ["Plastics","Refrigeration"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
+			{
+				"name": "Radar",
+				"row": 6,
+				"prerequisites": ["Ballistics","Electronics"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Ballistics","Combustion"],
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
+		]
 		]
 	},
 ]
