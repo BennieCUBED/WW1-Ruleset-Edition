@@ -7,6 +7,11 @@
 		"wonderCost": 185, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns, lol.
 		"techs": [
 			{
+				"name": "Industrialisation",
+				"row": 6,
+				"quote": "Hello :)",
+				"uniques": ["Starting tech"]
+			{
 				"name": "Biology",
 				"row": 2,
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
@@ -20,7 +25,6 @@
 				"name": "Steam Power",
 				"row": 6,
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
-        "uniques": ["Starting tech"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
